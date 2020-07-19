@@ -1,6 +1,5 @@
-
-    * {
-  margin: 0px;
+ * {
+   margin: 0px;
   padding: 0px;
 }
 
@@ -102,7 +101,6 @@ ul li:hover{
   opacity: 0;
   animation: link 1s cubic-bezier(.74, .06, .4, .92) forwards;
   animation-delay: 1.2s;
-
 }
     
 .container1 {
@@ -147,7 +145,6 @@ ul li:hover{
   color: black;
   font-style: bold;
   text-align: justify;
-
 }
 
 .button {
@@ -160,36 +157,36 @@ ul li:hover{
 
 .button .btn {
   width: 240px;
-   height: 70%;
-    font-size: 18px;
-        font-weight: bold;
-        font-family: 'Poppins', sans-serif;
-        transition: ease-in-out 220ms;
-        cursor: pointer;
-      }
-
-      .button .wish {
-        border: 2px solid #F71568;
-        color:  #F71568;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        opacity: 0;
-        animation: wish 1s cubic-bezier(.74, .06, .4, .92) forwards;
-        animation-delay: 1s;
-        background-color: white;
+  height: 70%;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  transition: ease-in-out 220ms;
+  cursor: pointer;
 }
-      .button .buy{
-        border: none;
-        background:#F71568;
-        color: white;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        opacity: 0;
-        animation: buy 1s cubic-bezier(.74, .06, .4, .92) forwards;
-        animation-delay: 1s;
-      }
+
+.button .wish {
+  border: 2px solid #F71568;
+   color:  #F71568;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   opacity: 0;
+   animation: wish 1s cubic-bezier(.74, .06, .4, .92) forwards;
+   animation-delay: 1s;
+   background-color: white;
+}
+.button .buy{
+  border: none;
+  background:#F71568;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  animation: buy 1s cubic-bezier(.74, .06, .4, .92) forwards;
+ animation-delay: 1s;
+}
 
 @keyframes Box {
   0% {
